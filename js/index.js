@@ -359,7 +359,7 @@ document.getElementById('contactID').innerHTML=contain;
 let submitBtn;
 function displayContact(){
   let contain =`
-  <div class="w-full mx-auto flex flex-wrap justify-between gap-5 items-center container">
+  <div class=" mx-auto flex flex-wrap justify-between gap-5 items-center  w-[90%]">
 
   <div class=" md:w-[49%] w-full mx-auto text-white">
     <input onkeyup="inputsValidation()" id="nameInput" type="text" class="p-3 rounded-lg bg-black border border-white border-5  w-full " placeholder="Enter Your Name">
